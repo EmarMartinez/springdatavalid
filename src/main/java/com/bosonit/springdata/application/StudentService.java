@@ -10,4 +10,5 @@ public interface StudentService {
     void deleteStudentById( int id);
     Iterable<StudentOutputDto> getAllStudents(int pageNumber, int pageSize);
     StudentOutputDto updateStudent(StudentInputDto student);
+
 }
